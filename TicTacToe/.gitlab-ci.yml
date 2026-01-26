@@ -1,0 +1,26 @@
+build:
+  script: mvn compile
+  stage: build
+deploy:
+  artifacts:
+    paths:
+    - public
+  only:
+  - main
+  script:
+  - mkdir -p public
+  - mv target/site/jacoco/* public/
+  stage: deploy
+image: maven:3.8.5-openjdk-17
+stages:
+- build
+- test
+- deploy
+test:
+  artifacts:
+    reports:
+      junit:
+      - target/surefire-reports/TEST-*.xml
+    when: always
+  script: mvn verify
+  stage: test
