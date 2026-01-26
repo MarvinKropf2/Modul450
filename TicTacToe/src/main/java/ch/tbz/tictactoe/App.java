@@ -1,4 +1,4 @@
-package ch.tbz.tictactoe;
+package main.java.ch.tbz.tictactoe;
 
 public class App {
     public static void main(String[] args) {

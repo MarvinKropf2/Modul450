@@ -1,4 +1,4 @@
-package ch.tbz.tictactoe;
+package test.java.ch.tbz.tictactoe;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
