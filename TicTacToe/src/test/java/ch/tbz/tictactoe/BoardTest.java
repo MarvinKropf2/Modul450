@@ -1,4 +1,4 @@
-package test.java.ch.tbz.tictactoe;
+package ch.tbz.tictactoe;
 
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.BeforeEach;

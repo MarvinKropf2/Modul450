@@ -1,4 +1,4 @@
-package main.java.ch.tbz.tictactoe;
+package ch.tbz.tictactoe;
 
 public class Board {
     private char[][] cells;

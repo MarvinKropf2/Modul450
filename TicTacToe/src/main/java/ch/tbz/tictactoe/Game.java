@@ -1,4 +1,4 @@
-package main.java.ch.tbz.tictactoe;
+package ch.tbz.tictactoe;
 
 public class Game {
     private final Board board;

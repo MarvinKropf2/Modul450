@@ -1,4 +1,4 @@
-package main.java.ch.tbz.tictactoe;
+package ch.tbz.tictactoe;
 
 import java.util.Scanner;
 
